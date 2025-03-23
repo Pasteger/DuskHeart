@@ -1,5 +1,5 @@
+using DuskHeart.Scripts.Data;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace DuskHeart.Scripts.UI
@@ -27,9 +27,6 @@ namespace DuskHeart.Scripts.UI
             newGameButton.gameObject.SetActive(true);
         }
         
-        private static void StartNewGame()
-        {
-            SceneManager.LoadScene($"OverworldScene");
-        }
+        private void StartNewGame() => StartCoroutine(WorldSaveGameManager.Instance.LoadNewGame());
     }
 }

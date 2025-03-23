@@ -12,5 +12,5 @@ EditorBuildSettings:
     path: Assets/Scenes/OverworldScene.unity
     guid: 417e535046bf0b64eb2032ca235934ba
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 1129560e8010e9040853e2a36c96ccc5, type: 3}
   m_UseUCBPForAssetBundles: 0
